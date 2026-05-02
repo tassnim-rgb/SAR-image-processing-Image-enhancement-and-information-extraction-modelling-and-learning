@@ -1,5 +1,5 @@
 # U-Net Pipeline: SAR & Brain MRI Segmentation
-**Unit 4 Assignment — Dr. Amel Bouchemha**
+**Unit 4 Assignment  Dr. Amel Bouchemha**
 *SAR Image Processing: Image Enhancement, Information Extraction, Modelling and Learning*
 
 ---
@@ -94,5 +94,5 @@ Input (1×256×256)
 
 ---
 
-*Assignment for Unit 4 — SAR Image Processing: Image Enhancement and Information Extraction, Modelling and Learning*
+*Assignment for Unit 4 SAR Image Processing: Image Enhancement and Information Extraction, Modelling and Learning*
 *Supervisor: Dr. Amel Bouchemha*
