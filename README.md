@@ -8,7 +8,7 @@
 
 This pipeline implements semantic image segmentation using a **U-Net architecture built from scratch in PyTorch**, applied to two imaging modalities:
 
-- **SAR (Synthetic Aperture Radar)** : detecting ships and structures in radar satellite imagery
+- **SAR (Synthetic Aperture Radar)** : high-resolution optical and synthetic aperture radar (SAR) Earth observation imagery operated by the Korea Aerospace Research Institute (KARI)
 - **Brain MRI** : segmenting tumor regions from FLAIR MRI scans
 
 The same U-Net backbone handles both tasks. The key difference is the **preprocessing stage**, which is adapted to each modality's noise model.
@@ -32,22 +32,6 @@ The same U-Net backbone handles both tasks. The key difference is the **preproce
 
 ---
 
-## Datasets
-
-### SAR — Ship Segmentation
-- **HRSID** (High-Resolution SAR Images Dataset)
-  → https://github.com/chaozhong2010/HRSID
-- **SAR-Ship Dataset** (Sentinel-1 based)
-  → https://github.com/CAESAR-Radi/SAR-Ship-Dataset
-
-### Brain MRI — Tumor Segmentation
-- **LGG Segmentation Dataset** (Kaggle)
-  → https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
-  → 3929 FLAIR image–mask pairs from 110 patients
-
-> **No dataset?** The notebook includes a synthetic data generator — every cell runs without downloading anything.
-
----
 
 
 ## The Architecture
